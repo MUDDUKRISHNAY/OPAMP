@@ -3,6 +3,14 @@
 Two stage  Operational Amplifier Design for high speed application
 This repository contains the complete design, simulation, and analysis files for a two-stage CMOS Operational Amplifier implemented in Cadence Virtuoso using the 90nm technology node.
 
+### Abstract
+This project presents the design and simulation of a high-speed CMOS operational amplifier using a 90nm technology node. 
+
+The amplifier architecture is optimized for high-speed performance while maintaining stability and reasonable power efficiency. Key design specifications include a phase margin (PM) of ≥ 60°, a gain of 3000 V/V (or 70 dB), and a gain bandwidth product (GBW) of 100 MHz. The op-amp achieves a slew rate (SR) of 100 V/µs, allowing it to handle fast input transitions effectively. The design operates with a dual power supply of ±1.3 V, and supports a common-mode input range from −0.5 V to +1.0 V.
+
+The design flow follows the principles described in CMOS Analog Circuit Design by Phillip E. Allen and Douglas R. Holberg. Hand calculations were used to size the transistors based on gain, bandwidth, and slew rate requirements. The design is validated through simulations in Cadence Virtuoso using the Spectre simulator.
+
+This project demonstrates a successful implementation of a high-performance analog building block that balances speed, gain, and power dissipation, making it suitable for integration in high-speed analog and mixed-signal systems.
 
 ## Design Methodology
 
@@ -38,6 +46,14 @@ The design targets high gain and stability with high slew rate, optimized for an
 
 ### on Design W/L values
 ![image](https://github.com/user-attachments/assets/ab131f1e-fcbf-41ef-a2fe-f8fd307ab73f)
+
+### Circuit simulation using cadence virtuoso (90nm)
+![image](https://github.com/user-attachments/assets/1b73b3fa-bf98-46ab-9e8a-7b468011d516)
+
+### testing circuit for transient simulation
+![tran_testing](https://github.com/user-attachments/assets/5ec532bc-c88a-43b2-a136-6b9d6e59745b)
+
+
 
 
 
