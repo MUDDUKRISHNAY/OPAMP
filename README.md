@@ -50,8 +50,35 @@ The design targets high gain and stability with high slew rate, optimized for an
 ### Circuit simulation using cadence virtuoso (90nm)
 ![image](https://github.com/user-attachments/assets/1b73b3fa-bf98-46ab-9e8a-7b468011d516)
 
-### testing circuit for transient simulation
+### Testing Circuit for transient simulation
 ![tran_testing](https://github.com/user-attachments/assets/5ec532bc-c88a-43b2-a136-6b9d6e59745b)
+
+## output of transient simulation
+![transient](https://github.com/user-attachments/assets/9ab2e038-8fd5-4cd6-bf9c-f3c5b2ae2805)
+
+## Testing Circuit for AC Analysis
+![Ac_test](https://github.com/user-attachments/assets/17f41932-51c7-438f-97d5-da5a8e7b60b3)
+
+## AC Analysis Result
+![ac](https://github.com/user-attachments/assets/26e6cc2d-b9aa-4bf5-a882-d77efc79e93f)
+in above picture you can see that 
+Gain = 70 dB
+Bandwidth = 55.6k Hz
+Unit Gain Bandwidth = 100.14 Hz
+phase Margin = 
+
+
+## Testing Circuit for  Slew_rate Calculation
+![slewRate_test](https://github.com/user-attachments/assets/9bb842cc-d52b-42c3-a38d-2499c442ced9)
+
+## slew_rate value
+![slewrate](https://github.com/user-attachments/assets/ee36561f-96c3-4ec4-9a5e-cbbb3c68acb7)
+
+
+
+
+
+
 
 
 
