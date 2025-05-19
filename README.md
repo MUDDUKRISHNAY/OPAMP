@@ -22,5 +22,11 @@ The design targets high gain and stability with high slew rate, optimized for an
 ![image](https://github.com/user-attachments/assets/28eed64a-b9a2-4108-9077-8d5ebcf29c27)
 
 
-### Design process
+### Design Relationships
+![opamp_relationship ](https://github.com/user-attachments/assets/d930a3ac-0fb8-456b-a9d8-b2db3414aa9c)
+
+### Designing  of W/L value to meet  Key Specifications
+
+
+
 
