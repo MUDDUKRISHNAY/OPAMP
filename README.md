@@ -62,11 +62,13 @@ The design targets high gain and stability with high slew rate, optimized for an
 ## AC Analysis Result
 ![ac](https://github.com/user-attachments/assets/26e6cc2d-b9aa-4bf5-a882-d77efc79e93f)
 in above picture you can see that 
-Gain = 70 dB
-Bandwidth = 55.6k Hz
-Unit Gain Bandwidth = 100.14 Hz
-phase Margin = 
+1.Gain = 70 dB
+2.Bandwidth = 55.6k Hz
+3.Unit Gain Bandwidth = 100.14 Hz
+4.3phase Margin = 60.14 (180-119.86)
 
+## Phase Margin
+![pm](https://github.com/user-attachments/assets/7300b731-9ddf-4618-a203-3f2ac1e40183)
 
 ## Testing Circuit for  Slew_rate Calculation
 ![slewRate_test](https://github.com/user-attachments/assets/9bb842cc-d52b-42c3-a38d-2499c442ced9)
