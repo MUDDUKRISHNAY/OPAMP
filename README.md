@@ -49,6 +49,14 @@ The design targets high gain and stability with high slew rate, optimized for an
 
 ## Circuit Pre Layout simulation using cadence virtuoso (90nm)
 ![image](https://github.com/user-attachments/assets/1b73b3fa-bf98-46ab-9e8a-7b468011d516)
+- In the circuit vin1 is positive terminal
+- Similarly vin2 is negative terminal
+- The reason for above two statement is
+- total gain = (gain of 1st stage)*(gain of 2nd stage) => generalized gain equation 
+- In my design the gain of 2nd stage is always negative
+- In 1st stage the gain may be (positive or negative) depending on the terminal slection , so to get negative gain I choose vin as positive terminal => gain of 1st stage becomes negative
+- Now gain of both 1st and 2nd stage in negative
+- total gain = (-gain of 1st stage)*(-gain of 2nd stage) => it becomes postive
 
 ## Test Circuit for transient simulation
 ![tran_testing](https://github.com/user-attachments/assets/5ec532bc-c88a-43b2-a136-6b9d6e59745b)
@@ -61,7 +69,7 @@ The design targets high gain and stability with high slew rate, optimized for an
 
 ### AC Analysis Result
 ![ac](https://github.com/user-attachments/assets/26e6cc2d-b9aa-4bf5-a882-d77efc79e93f)
-in above picture you can see that 
+In above picture you can see that 
 - Gain = 70 dB
 - Bandwidth = 55.6k Hz
 - Unit Gain Bandwidth = 100.14 Hz
