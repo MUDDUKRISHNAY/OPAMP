@@ -44,16 +44,16 @@ The design targets high gain and stability with high slew rate, optimized for an
 ![image](https://github.com/user-attachments/assets/bd00e43d-05c3-4c75-94c0-b953379f0d55)
 ![image](https://github.com/user-attachments/assets/3d4a3183-5ef0-4749-b9d9-4600059fa453)
 
-## on Design W/L values
+## On Design W/L values
 ![image](https://github.com/user-attachments/assets/ab131f1e-fcbf-41ef-a2fe-f8fd307ab73f)
 
-## Circuit simulation using cadence virtuoso (90nm)
+## Circuit Pre Layout simulation using cadence virtuoso (90nm)
 ![image](https://github.com/user-attachments/assets/1b73b3fa-bf98-46ab-9e8a-7b468011d516)
 
 ## Test Circuit for transient simulation
 ![tran_testing](https://github.com/user-attachments/assets/5ec532bc-c88a-43b2-a136-6b9d6e59745b)
 
-## output of transient simulation
+## Output of transient simulation
 ![transient](https://github.com/user-attachments/assets/9ab2e038-8fd5-4cd6-bf9c-f3c5b2ae2805)
 
 ## Test Circuit for AC Analysis
@@ -73,7 +73,7 @@ in above picture you can see that
 ## Test Circuit for  Slew_rate Calculation
 ![slewRate_test](https://github.com/user-attachments/assets/9bb842cc-d52b-42c3-a38d-2499c442ced9)
 
-### slew_rate value
+### Slew_rate value
 ![slewrate](https://github.com/user-attachments/assets/ee36561f-96c3-4ec4-9a5e-cbbb3c68acb7)
 
 ## Test circuit for ICMR calculations
@@ -81,6 +81,10 @@ in above picture you can see that
 
 ### ICMR value 
 ![icmr_valu](https://github.com/user-attachments/assets/70d55ed2-feb2-456b-8600-25e835b94f46)
+in above picture you can see that 
+- ICMR- = -0.5V
+- ICMR+ = 1V
+
 
 
 
