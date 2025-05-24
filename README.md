@@ -48,6 +48,7 @@ The design targets high gain and stability with high slew rate, optimized for an
 ![image](https://github.com/user-attachments/assets/ab131f1e-fcbf-41ef-a2fe-f8fd307ab73f)
 - You can see that ther is some mismatch in above W/L value when compared to design valve
 - This mismatch arises due to non linearity of tarnsistor
+- W/L value of M8 is same as M5 and W/L value of M9 is 0.615
 
 ## Circuit Pre Layout simulation using cadence virtuoso (90nm)
 ![image](https://github.com/user-attachments/assets/1b73b3fa-bf98-46ab-9e8a-7b468011d516)
