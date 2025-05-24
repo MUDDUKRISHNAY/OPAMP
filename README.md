@@ -1,9 +1,13 @@
 # OPAMP
 
+## Table of contents
+-[Abstract and overview](#Abstractandoverview)
+-[Design Methodology](#DesignMethodology)
+
 Two stage  Operational Amplifier Design for high speed application
 This repository contains the complete design, simulation, and analysis files for a two-stage CMOS Operational Amplifier implemented in Cadence Virtuoso using the 90nm technology node.
 
-## Abstract
+## Abstract and overview 
 This project presents the design and simulation of a high-speed CMOS operational amplifier using a 90nm technology node. 
 
 The amplifier architecture is optimized for high-speed performance while maintaining stability and reasonable power efficiency. Key design specifications include a phase margin (PM) of ≥ 60°, a gain of 3000 V/V (or 70 dB), and a gain bandwidth product (GBW) of 100 MHz. The op-amp achieves a slew rate (SR) of 100 V/µs, allowing it to handle fast input transitions effectively. The design operates with a dual power supply of ±1.3 V, and supports a common-mode input range from −0.5 V to +1.0 V.
@@ -19,11 +23,6 @@ The amplifier was designed using textbook design flow from **Allen & Holberg**:
 - Two-stage topology with Miller compensation
 - Biasing and gain optimization using hand calculations
 - Verification via Spectre simulation (AC, transient, stability)
-
-
-## Overview
-
-The design targets high gain and stability with high slew rate, optimized for analog signal processing applications. 
 
 
 ## Key Design Specifications
