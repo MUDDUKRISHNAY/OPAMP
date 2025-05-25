@@ -10,10 +10,17 @@ This repository contains the complete design, simulation, and analysis files for
 - 4.[Design Relationships](#Design-Relationships)
 - 5.[Designing of W/L value to meet Key Specifications](#Designing-of-W/L-value-to-meet-Key-Specifications)
 - 6.[proposed design](#proposed-design)
-- 7.[On Design W/L values](#OnDesign-W/L-values)
-- 8.[Pre Layout simulation using cadence virtuoso (90nm)](#Pre-ayout-simulation-using-cadence-virtuoso(90nm))
-- 9.[Test Circuit for transient simulation](##Test-Circuit-for-transient-simulation)
-- 10.[Output of transient simulation](##Output-of-transient-simulation)
+- 7.[On Design W/L values](#On-Design-W/L-values)
+- 8.[Pre Layout simulation using cadence virtuoso (90nm)](#Pre-Layout-simulation-using-cadence-virtuoso(90nm))
+- 9.[Test Circuit for transient simulation](#Test-Circuit-for-transient-simulation)
+- 10.[Output of transient simulation](#Output-of-transient-simulation)
+- 11.[Test Circuit for AC Analysis](#Test-Circuit-for-AC-Analysis)
+- 12.[AC Analysis Result](#AC-Analysis-Result)
+- 13.[Phase Margin](#Phase-Margin)
+- 14.[Test Circuit for Slew_rate Calculation](#Test-Circuit-for-Slew_rate-Calculation)
+- 15.[Slew_rate value](#Slew_rate-value)
+- 16.[Test circuit for ICMR calculations](#Test-circuit-for-ICMR-calculations)
+- 17.[ICMR value](#ICMR-value)
 
 ## Abstract and overview 
 This project presents the design and simulation of a high-speed CMOS operational amplifier using a 90nm technology node. 
