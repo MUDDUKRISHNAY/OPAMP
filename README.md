@@ -1,8 +1,8 @@
 # OPAMP
 
 ## Table of contents
--[Abstract and overview](#Abstractandoverview)
--[Design Methodology](#DesignMethodology)
+- 1.[Abstract and overview](#Abstractandoverview)
+- 2.[Design Methodology](#DesignMethodology)
 
 Two stage  Operational Amplifier Design for high speed application
 This repository contains the complete design, simulation, and analysis files for a two-stage CMOS Operational Amplifier implemented in Cadence Virtuoso using the 90nm technology node.
