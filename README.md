@@ -4,16 +4,16 @@ This repository contains the complete design, simulation, and analysis files for
 
 
 ## Table of contents
-- 1.[Abstract and overview](#Abstractandoverview)
-- 2.[Design Methodology](#DesignMethodology)
-- 3.[Key Design Specifications](#KeyDesignSpecifications)
-- 4.[Design Relationships](#DesignRelationships)
-- 5.[ Designing  of W/L value to meet  Key Specifications](#DesigningofW/LvaluetomeetKeySpecifications)
-- 6.[proposed design](#proposeddesign)
-- 7.[On Design W/L values](#OnDesignW/Lvalues)
-- 8.[Pre Layout simulation using cadence virtuoso (90nm)](#PreLayoutsimulationusingcadencevirtuoso(90nm))
-- 9.[Test Circuit for transient simulation](##TestCircuitfortransientsimulation)
-- 10.[Output of transient simulation](##Outputoftransientsimulation)
+- 1.[Abstract and overview](#Abstract-and-overview)
+- 2.[Design Methodology](#Design-Methodology)
+- 3.[Key Design Specifications](#Key-Design-Specifications)
+- 4.[Design Relationships](#Design-Relationships)
+- 5.[ Designing  of W/L value to meet  Key Specifications](#Designing-of-W/L-value-to-meet-Key-Specifications)
+- 6.[proposed design](#proposed-design)
+- 7.[On Design W/L values](#OnDesign-W/L-values)
+- 8.[Pre Layout simulation using cadence virtuoso (90nm)](#Pre-ayout-simulation-using-cadence-virtuoso(90nm))
+- 9.[Test Circuit for transient simulation](##Test-Circuit-for-transient-simulation)
+- 10.[Output of transient simulation](##Output-of-transient-simulation)
 
 ## Abstract and overview 
 This project presents the design and simulation of a high-speed CMOS operational amplifier using a 90nm technology node. 
@@ -64,9 +64,9 @@ The amplifier was designed using textbook design flow from **Allen & Holberg**:
 - The reason for above two statement is
 - total gain = (gain of 1st stage)*(gain of 2nd stage) => generalized gain equation 
 - In my design the gain of 2nd stage is always negative
-- In 1st stage the gain may be (positive or negative) depending on the terminal slection , so to get negative gain I choose vin as positive terminal => gain of 1st stage becomes negative
+- In 1st stage the gain may be (positive or negative) depending on the terminal slection , so to get negative gain I choose vin1 as positive terminal so  gain of 1st stage becomes negative
 - Now gain of both 1st and 2nd stage in negative
-- total gain = (-gain of 1st stage)*(-gain of 2nd stage) => it becomes postive
+- total gain = (-gain of 1st stage)*(-gain of 2nd stage) so it becomes postive
 
 ## Test Circuit for transient simulation
 ![tran_testing](https://github.com/user-attachments/assets/5ec532bc-c88a-43b2-a136-6b9d6e59745b)
