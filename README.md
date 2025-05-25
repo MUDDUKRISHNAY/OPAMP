@@ -11,7 +11,7 @@ This repository contains the complete design, simulation, and analysis files for
 - 5.[Designing of W/L value to meet Key Specifications](#Designing-of-W/L-value-to-meet-Key-Specifications)
 - 6.[proposed design](#proposed-design)
 - 7.[On Design W/L values](#On-Design-W/L-values)
-- 8.[Pre Layout simulation using cadence virtuoso (90nm)](#Pre-Layout-simulation-using-cadence-virtuoso(90nm))
+- 8.[Pre Layout simulation](#Pre-Layout-simulation)
 - 9.[Test Circuit for transient simulation](#Test-Circuit-for-transient-simulation)
 - 10.[Output of transient simulation](#Output-of-transient-simulation)
 - 11.[Test Circuit for AC Analysis](#Test-Circuit-for-AC-Analysis)
@@ -64,7 +64,7 @@ The amplifier was designed using textbook design flow from **Allen & Holberg**:
 - This mismatch arises due to non linearity of tarnsistor
 - W/L value of M8 is same as M5 and W/L value of M9 is 0.615
 
-## Pre Layout simulation using cadence virtuoso (90nm)
+## Pre Layout simulation
 ![image](https://github.com/user-attachments/assets/1b73b3fa-bf98-46ab-9e8a-7b468011d516)
 - In the circuit vin1 is positive terminal
 - Similarly vin2 is negative terminal
