@@ -12,8 +12,8 @@ This repository contains the complete design, simulation, and analysis files for
 - 6.[proposed design](#proposeddesign)
 - 7.[On Design W/L values](#OnDesignW/Lvalues)
 - 8.[Pre Layout simulation using cadence virtuoso (90nm)](#PreLayoutsimulationusingcadencevirtuoso(90nm))
--  [### Test Circuit for transient simulation](#TestCircuitfortransientsimulation)
--  [### Output of transient simulation](#Outputoftransientsimulation)
+-    [Test Circuit for transient simulation](#TestCircuitfortransientsimulation)
+-    [Output of transient simulation](#Outputoftransientsimulation)
 
 ## Abstract and overview 
 This project presents the design and simulation of a high-speed CMOS operational amplifier using a 90nm technology node. 
