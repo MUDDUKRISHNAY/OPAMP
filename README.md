@@ -1,11 +1,19 @@
 # OPAMP
-
-## Table of contents
-- 1.[Abstract and overview](#Abstractandoverview)
-- 2.[Design Methodology](#DesignMethodology)
-
 Two stage  Operational Amplifier Design for high speed application
 This repository contains the complete design, simulation, and analysis files for a two-stage CMOS Operational Amplifier implemented in Cadence Virtuoso using the 90nm technology node.
+
+
+## Table of contents
+- 1. [Abstract and overview](#Abstractandoverview)
+- 2. [Design Methodology](#DesignMethodology)
+- 3. [Key Design Specifications](#KeyDesignSpecifications)
+- 4. [Design Relationships](#DesignRelationships)
+- 5. [ Designing  of W/L value to meet  Key Specifications](#DesigningofW/LvaluetomeetKeySpecifications)
+- 6. [proposed design](#proposeddesign)
+- 7. [On Design W/L values](#OnDesignW/Lvalues)
+- 8. [Pre Layout simulation using cadence virtuoso (90nm)](#PreLayoutsimulationusingcadencevirtuoso(90nm))
+-  [Test Circuit for transient simulation](##TestCircuitfortransientsimulation)
+-  [Output of transient simulation](##Outputoftransientsimulation)
 
 ## Abstract and overview 
 This project presents the design and simulation of a high-speed CMOS operational amplifier using a 90nm technology node. 
@@ -49,7 +57,7 @@ The amplifier was designed using textbook design flow from **Allen & Holberg**:
 - This mismatch arises due to non linearity of tarnsistor
 - W/L value of M8 is same as M5 and W/L value of M9 is 0.615
 
-## Circuit Pre Layout simulation using cadence virtuoso (90nm)
+## Pre Layout simulation using cadence virtuoso (90nm)
 ![image](https://github.com/user-attachments/assets/1b73b3fa-bf98-46ab-9e8a-7b468011d516)
 - In the circuit vin1 is positive terminal
 - Similarly vin2 is negative terminal
