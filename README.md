@@ -4,10 +4,10 @@ This repository contains the complete design, simulation, and analysis files for
 
 
 ## Table of contents
-1.[Abstract and overview](#1-Abstract-and-overview)
-2.[Design Methodology](#2-Design-Methodology)
-3.[Key Design Specifications](#3-Key-Design-Specifications)
-4.[Design Relationships](#4-Design-Relationships)
+- 1.[Abstract and overview](#1-Abstract-and-overview)
+- 2.[Design Methodology](#2-Design-Methodology)
+- 3.[Key Design Specifications](#3-Key-Design-Specifications)
+- 4.[Design Relationships](#4-Design-Relationships)
 - 5.[ Designing  of W/L value to meet  Key Specifications](#Designing-of-W/L-value-to-meet-Key-Specifications)
 - 6.[proposed design](#proposed-design)
 - 7.[On Design W/L values](#OnDesign-W/L-values)
