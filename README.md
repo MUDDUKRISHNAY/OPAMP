@@ -21,6 +21,8 @@ This repository contains the complete design, simulation, and analysis files for
 - 15.[Slew_rate value](#Slew_rate-value)
 - 16.[Test circuit for ICMR calculations](#Test-circuit-for-ICMR-calculations)
 - 17.[ICMR value](#ICMR-value)
+- 18.[Layout design ](#Layout-design)
+- 19.[future work](#future-work)
 
 ## Abstract and overview 
 This project presents the design and simulation of a high-speed CMOS operational amplifier using a 90nm technology node. 
@@ -110,12 +112,24 @@ in above picture you can see that
 - ICMR- = -0.5V
 - ICMR+ = 1V
 
+You can see that my design value matchs with the resulted valve 
 
+## Layout design 
 
+- Layout of OPAMP
+![opamp](https://github.com/user-attachments/assets/940609c4-60c1-4b5a-b8dd-8e7595385eee)
 
+- Layout of OPAMP with no DRC error
+![opamp_drc](https://github.com/user-attachments/assets/a3405616-43ea-4db5-8eed-b16d8ed7c283)
 
+- Layout of OPAMP with no LVS error
+![opamp_lvs](https://github.com/user-attachments/assets/0a37f6ac-3f0d-47ef-acc2-a943e1e0cbc1)
 
+## future work 
+ - optimization of Area
+ - slew_rate doesn't match with designed value ( still working on it , to get same value on both designed and resulted value)
 
+ 
 
 
 
