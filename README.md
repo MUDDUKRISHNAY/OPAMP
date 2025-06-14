@@ -129,6 +129,10 @@ You can see that my design value matchs with the resulted valve
  - optimization of Area
  - slew_rate doesn't match with designed value ( still working on it , to get same value on both designed and resulted value)
 
+## Reference
+- some papers and books
+https://drive.google.com/drive/folders/1DwQK6ToqPoA2O_kQzzZrTLDcux04AhlF
+
  
 
 
